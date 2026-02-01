@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.21.0" timestamp="2026-02-02T00:00:46.016">
+<file name=".\force-app\main\default\classes\FileUtilities.cls">
+<violation beginline="3" endline="32" begincolumn="19" endcolumn="6" rule="CognitiveComplexity" ruleset="Design" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+The method 'createFile(String, String, String)' has a cognitive complexity of 1, current threshold is 1
+</violation>
+</file>
+<file name=".\force-app\main\default\classes\FileUtilitiesTest.cls">
+<violation beginline="25" endline="43" begincolumn="12" endcolumn="6" rule="CognitiveComplexity" ruleset="Design" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+The method 'createFileFailsWhenIncorrectRecordId()' has a cognitive complexity of 1, current threshold is 1
+</violation>
+<violation beginline="46" endline="67" begincolumn="12" endcolumn="6" rule="CognitiveComplexity" ruleset="Design" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+The method 'createFileFailsWhenIncorrectBase64Data()' has a cognitive complexity of 1, current threshold is 1
+</violation>
+<violation beginline="70" endline="91" begincolumn="12" endcolumn="6" rule="CognitiveComplexity" ruleset="Design" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+The method 'createFileFailsWhenIncorrectFilename()' has a cognitive complexity of 1, current threshold is 1
+</violation>
+</file>
+<file name=".\force-app\main\default\classes\GeocodingService.cls">
+<violation beginline="5" endline="51" begincolumn="19" endcolumn="6" rule="CognitiveComplexity" ruleset="Design" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+The method 'geocodeAddresses(List&lt;GeocodingAddress&gt;)' has a cognitive complexity of 16, current threshold is 1
+</violation>
+</file>
+<file name=".\force-app\main\default\classes\PropertyController.cls">
+<violation beginline="84" endline="111" begincolumn="19" endcolumn="6" rule="CognitiveComplexity" ruleset="Design" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+The method 'getPictures(Id)' has a cognitive complexity of 2, current threshold is 1
+</violation>
+</file>
+<file name=".\force-app\main\default\classes\SampleDataController.cls">
+<violation beginline="57" endline="62" begincolumn="20" endcolumn="6" rule="CognitiveComplexity" ruleset="Design" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+The method 'randomizeDateListed(List&lt;Property__c&gt;)' has a cognitive complexity of 1, current threshold is 1
+</violation>
+</file>
+<file name=".\force-app\main\default\classes\TestPropertyController.cls">
+<violation beginline="5" endline="18" begincolumn="19" endcolumn="6" rule="CognitiveComplexity" ruleset="Design" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+The method 'createProperties(Integer)' has a cognitive complexity of 1, current threshold is 1
+</violation>
+</file>
+<file name=".\force-app\main\default\classes\TestSampleDataController.cls">
+<violation beginline="4" endline="16" begincolumn="12" endcolumn="6" rule="CognitiveComplexity" ruleset="Design" externalInfoUrl="https://docs.pmd-code.org/snapshot/pmd_rules_apex_design.html#cognitivecomplexity" priority="3">
+The method 'importSampleData()' has a cognitive complexity of 1, current threshold is 1
+</violation>
+</file>
+</pmd>

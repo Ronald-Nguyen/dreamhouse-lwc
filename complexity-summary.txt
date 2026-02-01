@@ -1,0 +1,13 @@
+Project Structure & Complexity Report
+=====================================
+File Path                                                    | Complexity   | Lines of Code
+-----------------------------------------------------------------------------------------------
+.\force-app\main\default\classes\FileUtilities.cls           | 1            | 33
+.\force-app\main\default\classes\FileUtilitiesTest.cls       | 3            | 92
+.\force-app\main\default\classes\GeocodingService.cls        | 16           | 72
+.\force-app\main\default\classes\PropertyController.cls      | 2            | 112
+.\force-app\main\default\classes\SampleDataController.cls    | 1            | 63
+.\force-app\main\default\classes\TestPropertyController.cls  | 1            | 121
+.\force-app\main\default\classes\TestSampleDataController.cls | 1            | 17
+-----------------------------------------------------------------------------------------------
+GRAND TOTAL                                                  | 25           | 510
